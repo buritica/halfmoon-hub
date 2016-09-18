@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'doubletail-hub',
+    modulePrefix: 'halfmoon-hub',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

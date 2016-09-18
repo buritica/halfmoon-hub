@@ -1,7 +1,7 @@
 {
-  "name": "doubletail-hub",
+  "name": "halfmoon-hub",
   "version": "0.0.0",
-  "description": "Small description for doubletail-hub goes here",
+  "description": "Small description for halfmoon-hub goes here",
   "private": true,
   "directories": {
     "doc": "doc",
