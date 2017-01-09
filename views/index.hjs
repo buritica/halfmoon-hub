@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Halfmoon Hub</h1>
+
+    <h2>Media Managers</h2>
+    <p><a href="http://{{ host }}:8989" target="_blank">TV Series (sonarr)</a></p>
+    <p><a href="http://{{ host }}:8484" target="_blank">Movies (couchpotato)</a></p>
+
+    <h2>Media Downloaders</h2>
+    <p><a href="http://{{ host }}:8080" target="_blank">SABnzbd+</a></p>
+  
+    <h2>Media Servers</h2>
+    <p><a href="http://{{ host }}:32400" target="_blank">Plex Media Server</a></p>
+  </body>
+</html>
