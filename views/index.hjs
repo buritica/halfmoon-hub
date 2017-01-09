@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.min.css' />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+  <title>{{ title }}</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.min.css' />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>Halfmoon Hub</h1>
+    <div class="row">
+      <h1 class="column small-12">{{ title }}</h1>
 
-    <h2>Media Managers</h2>
-    <p><a href="http://{{ host }}:8989" target="_blank">TV Series (sonarr)</a></p>
-    <p><a href="http://{{ host }}:8484" target="_blank">Movies (couchpotato)</a></p>
+      <h3 class="column small-12">Media Managers</h3>
+      <p class="column small-12"><a href="http://{{ host }}:8989" target="_blank">TV Series (sonarr)</a></p>
+      <p class="column small-12"><a href="http://{{ host }}:8484" target="_blank">Movies (couchpotato)</a></p>
 
-    <h2>Media Downloaders</h2>
-    <p><a href="http://{{ host }}:8080" target="_blank">SABnzbd+</a></p>
-  
-    <h2>Media Servers</h2>
-    <p><a href="http://{{ host }}:32400" target="_blank">Plex Media Server</a></p>
+      <h3 class="column small-12">Media Downloaders</h3>
+      <p class="column small-12"><a href="http://{{ host }}:8080" target="_blank">SABnzbd+</a></p>
+      
+      <h3 class="column small-12">Media Servers</h3>
+      <p class="column small-12"><a href="http://{{ host }}:32400" target="_blank">Plex Media Server</a></p>
+    </div>
   </body>
 </html>
