@@ -4,7 +4,7 @@ let ip = require('ip');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', host: ip.address() });
+  res.render('index', { title: 'Halfmoon Server Hub', host: ip.address() });
 });
 
 module.exports = router;
