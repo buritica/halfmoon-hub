@@ -18,4 +18,5 @@ COPY . /usr/src/app
 
 EXPOSE 3000
 
+CMD [ "yarn", "build" ]
 CMD [ "yarn", "start" ]
