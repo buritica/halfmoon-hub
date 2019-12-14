@@ -20,8 +20,9 @@ export default () => (
       <Grid columns={12}>
         <h1>📺 Televisora Nacional 📺</h1>
         <h3>Media Managers</h3>
-        <p><a href='http://tv.buriti.ca:8989/' target='_blank'>📺 TV Series (sonarr)</a></p>
-        <p><a href='http://tv.buriti.ca:8484/' target='_blank'>🎥 Movies (couchpotato - user:buritica/pass:buritica)</a></p>
+        <p><a href='http://tv.buriti.ca:8989/' target='_blank'>📺 TV Series </a></p>
+        {/* <p><a href='http://tv.buriti.ca:8484/' target='_blank'>🎥 Movies (couchpotato - user:buritica/pass:buritica)</a></p> */}
+        <p><a href='http://tv.buriti.ca:8585/' target='_blank'>🎥 Movies </a></p>
 
         <h3>Media Downloaders</h3>
         <p><a href='http://tv.buriti.ca:8080/' target='_blank'>⬇️ SABnzbd+</a></p>
