@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "3.x.x",
+    "next": "9.x.x",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-responsive-grid": "^0.3.4",
